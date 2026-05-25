@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>System :DDD</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <div id="banner">
+        <img id="cool" src="cooltext508502143376168.gif" alt="dojebany tekst">
+    </div>
+    <div id="page-select">
+        <button class="links" onclick="openContent(event, 'cel')" id="default">Cel</button>
+        <button class="links" onclick="openContent(event, 'dziedzina')">Dziedzina problemu</button>
+        <button class="links" onclick="openContent(event, 'dpu')">DPU</button>
+        <button class="links" onclick="openContent(event, 'diagram_a')">Diagram Analityczny</button>
+        <button class="links" onclick="openContent(event, 'diagram_b')">Diagram klas i obiektów</button>
+    </div>
+    <div id="cel" class="tabcontent">
+        <h1>Cel</h1>
+        <p>Celem systemu jest zarządzanie rezerwacjami i zgłoszeniami na rekolekcje w domu rekolekcyjnym</p>
+    </div>
+    <div id="dziedzina" class="tabcontent">
+        <h1>Dziedzina problemu</h1>
+        <p>Dziedziną problemową jest Dom Rekolekcyjny, to znaczy hotel, restauracja i kawiarnio-księgarnia.</p>
+    </div>
+    <div id="dpu" class="tabcontent">
+        <h1>DPU</h1>
+        <img src="DPU.png" alt="dupa">
+    </div>
+    <div id="diagram_a" class="tabcontent">
+        <h1>Diagram Analityczny</h1>
+        <img src="diagramkoncept.png" alt="anal">
+    </div>
+    <div id="diagram_b" class="tabcontent">
+        <h1>Diagram klas i obiektów</h1>
+        <img src="klas.png" alt="kurka wodna">
+        <div id="left">
+            <h2>Przypadek normalny</h2>
+            <img src="obiektos.png" alt="normalny">
+        </div>
+        <div id="right">
+            <h2>Przypadek niezwykły</h2>
+            <img src="obiekty.png" alt="popierdolony">
+        </div>
+    </div>
+    <footer>
+        <p>Strona stworzona w piwnicy, przez &copy;W.B.</p>
+        <p>100% Clanker free&trade;</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
